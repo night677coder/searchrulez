@@ -89,7 +89,7 @@ function displayResult(item, providers, externalIds) {
 
     // Construct watch on site link (example: TMDB homepage or external link if available)
     // Add the requested fixed URL as available to watch on site
-    const watchLink = 'https://night677coder.github.io/mytheater';
+    const watchLink = 'https://night677coder.github.io/nightfall';
 
     let providersList = '';
     if (providers.length > 0) {
@@ -121,3 +121,4 @@ function displayResult(item, providers, externalIds) {
 
     resultsDiv.appendChild(resultDiv);
 }
+
